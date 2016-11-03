@@ -1,4 +1,14 @@
 body {
   font-family: 'Source Sans Pro', sans-serif;
+}
+
+li {
+  display: inline-block;
+}
+
+#icon-list li {
+  border-radius: 10px;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-style: groove;
 
 }
