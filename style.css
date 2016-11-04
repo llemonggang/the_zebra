@@ -1,6 +1,8 @@
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin: 0px;
+  color: #4A4A4A;
+  font-size: 16px;
 }
 
 header {
@@ -18,7 +20,7 @@ span {
   width: 950px;
 }
 
-p {
+header p {
   color: #ffffff;
   font-size: 18px;
   line-height: 26px;
@@ -34,6 +36,64 @@ header img {
 
 li {
   display: inline-block;
+}
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: #4A4A4A;
+}
+
+.nav {
+  margin-left: 210px;
+}
+
+.nav img {
+  height: 12px;
+  padding: 0px 15px;
+}
+.nav li a:active {
+  text-decoration: underline;
+  /*text-decoration-color: #1CBEEC;*/
+}
+
+#nav-slider h4 {
+  margin-top: 120px;
+  text-align: center;
+  font-size: 26px;
+}
+
+#icon-list {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 150px;
+}
+
+#icon-list button {
+  background-color: #1CBEEC;
+  border-radius: 60px;
+  color: #ffffff;
+  width: 125px;
+  padding: 5px;
+  border-style: none;
+  font-size: 14px;
+  font-weight: 100;
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+}
+
+#icon-list li {
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  height: 120px;
+  width: 120px;
+  padding: 30px;
+  margin: 10px;
+}
+
+#icon-list img {
+  height: 60px;
+  margin-top: 30px;
 }
 
 svg {
