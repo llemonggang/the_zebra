@@ -1,14 +1,34 @@
 body {
   font-family: 'Source Sans Pro', sans-serif;
+  margin: none;
+}
+
+header {
+  background-image: url(./images/bg-nyc.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: none;
+  font-size: 72px;
+  color: #ffffff;
+  line-height: 70px;
+  padding: 10px 60px 0px 60px;
+}
+
+header img {
+  height: 15px;
+  width: auto;
+}
+
+header h5 {
+  font-size: 18px;
+  line-height: 26px;
 }
 
 li {
   display: inline-block;
 }
 
-#icon-list li {
-  border-radius: 10px;
-  border-color: rgba(0, 0, 0, 0.1);
-  border-style: groove;
-
+svg {
+  height: 40px;
+  width: auto;
 }
