@@ -100,3 +100,14 @@ svg {
   height: 40px;
   width: auto;
 }
+
+#body {
+  margin: auto;
+  width: 900px;
+}
+
+.body-img {
+  float: right;
+  height: 375px;
+  width: auto;
+}
