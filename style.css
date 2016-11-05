@@ -119,13 +119,44 @@ hr {
   border-top: 1px solid rgba(74, 74, 74, 0.5);
 }
 
-#airport-title p {
-  color: rgba(0, 0, 0, 0.03);
+.white-label {
+  color: rgba(0, 0, 0, 0.02);
   font-size: 150px;
   font-family: 'Archivo Black', sans-serif;
   text-align: center;
+  letter-spacing: 6px;
 }
 
 #airport-svg {
+  text-align: center;
+  font-size: 42px;
+  margin-top: -30%;
+  margin-bottom: 80px;
+}
 
+#airport-svg p {
+  margin-top: -1%;
+}
+
+#airport-svg hr {
+  display: block;
+  width: 30px;
+  border: 0;
+  border-top: 3px solid #1CBEEC;
+  margin-top: -3%;
+}
+
+#airport-body p {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+#airport-body p span {
+  color: #1CBEEC;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+#airport-body img {
+  padding-left: 30px;
 }
