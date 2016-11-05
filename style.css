@@ -73,13 +73,13 @@ a:link, a:visited, a:hover, a:active {
   border-radius: 60px;
   color: #ffffff;
   width: 125px;
-  padding: 5px;
+  padding: 6px;
   border-style: none;
   font-size: 14px;
   font-weight: 100;
   display: block;
   margin: auto;
-  margin-top: 40px;
+  margin-top: 27px;
 }
 
 #icon-list li {
@@ -87,7 +87,7 @@ a:link, a:visited, a:hover, a:active {
   border-radius: 5px;
   height: 120px;
   width: 120px;
-  padding: 30px;
+  padding: 23px;
   margin: 10px;
 }
 
@@ -97,7 +97,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 svg {
-  height: 40px;
+  height: 45px;
   width: auto;
 }
 
@@ -110,4 +110,22 @@ svg {
   float: right;
   height: 375px;
   width: auto;
+}
+
+hr {
+  display: block;
+  height: 2px;
+  border: 0;
+  border-top: 1px solid rgba(74, 74, 74, 0.5);
+}
+
+#airport-title p {
+  color: rgba(0, 0, 0, 0.03);
+  font-size: 150px;
+  font-family: 'Archivo Black', sans-serif;
+  text-align: center;
+}
+
+#airport-svg {
+
 }
