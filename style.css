@@ -183,3 +183,21 @@ hr {
 .second-line {
   color: rgba(74, 74, 74, 0.5);
 }
+
+#subway-instruction {
+  text-align: center;
+  display: block;
+  padding: 30px;
+}
+
+#subway-instruction span {
+  display: block;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 30px;
+}
+
+.subway-titles {
+  font-size: 20px;
+  font-weight: 600;
+}
