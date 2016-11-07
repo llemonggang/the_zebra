@@ -41,9 +41,9 @@
 
     <div id="body">
       <div id="airports">
-        <div id="airport-title">
+        <div>
           <p class="white-label">Airports</p>
-          <div id="airport-svg">
+          <div class="icon-svg">
             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
             	 width="283.6px" height="136.7px" viewBox="0 0 283.6 136.7" enable-background="new 0 0 283.6 136.7" xml:space="preserve">
             <g>
@@ -65,14 +65,22 @@
             <hr>
           </div>
         </div>
-        <div id="airport-body">
-          <p><img src="./images/carousel-terminal.png" alt="Carousel Terminal" class="body-img" />
+        <div class="section-body">
+          <p>
+            <div class="img-group">
+              <img class="body-arrows" src="./images/icon-caret-left.png" alt="Left Arrow" /><img src="./images/carousel-terminal.png" alt="Carousel Terminal" class="body-img"/><img class="body-arrows" src="./images/icon-caret-right.png" alt="Right Arrow" />
+              <p class="img-title">
+                <span>John F. Kennedy International Airport (JFK)</span>
+                <br>
+                <span class="second-line">New York City, New York</span>
+              </p>
+            </div>
             There are three major Airports in the New York City area, two of which are in New York and one close by in New Jersey.
-
-            If you are coming to New York from out of the country you will most likely be flying into <span>John F. Kennedy International Airport (JFK)</span> which lies South of the city near Queens. For easy access after your flight to the city itself, you can take the AirTrain. The Airtrain will take travelers straight from the airport to the city and close to main subway and train lines to get you to your destination once inside Manhattan.
-
+            <br><br>
+            If you are coming to New York from out of the country you will most likely be flying into <span id="jfk">John F. Kennedy International Airport (JFK)</span> which lies South of the city near Queens. For easy access after your flight to the city itself, you can take the AirTrain. The Airtrain will take travelers straight from the airport to the city and close to main subway and train lines to get you to your destination once inside Manhattan.
+            <br><br>
             The second airport located in New York is the La Guardia Airport (LGA). Most domestic flights will end here rather than JFK. LGA is also located in Queens but is much closer to the city itself. There are multiple bus and subway routes that can get you to the city and of course iconic New York cabs waiting to take you to your destination.
-
+            <br><br>
             The 3rd and final airport is located in New Jersey, Newark Liberty International Airport (EWR) is used for both international and domestic flights. With its location outside of New York it is less crowded but a little out of the way. In an effort to make EWR more accessible for tourists and travelers you can now take a NJ AirTrain into Manhattan from the airport.
           </p>
         </div>
@@ -81,23 +89,28 @@
       <hr>
 
       <div id="cabs">
-        <div id="cab-title">
-          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-          	 width="155px" height="136.4px" viewBox="0 0 155 136.4" enable-background="new 0 0 155 136.4" xml:space="preserve">
-          <g>
-          	<rect x="56.2" y="94.7" fill="#1EBEEB" width="43.4" height="10.8"/>
-          	<path fill="#1EBEEB" d="M2.4,66.9h7.4c-1.7,5.3-2.5,10.8-2.5,16.4v23.5l0,0v24.4c0,2.9,2.3,5.3,5.1,5.3h20.4v-6.6h89.9v6.6h20.4
-          		c2.8,0,5.1-2.4,5.1-5.3v-24.4l0,0V83.3c0-5.6-0.9-11.1-2.5-16.4h6.7c1.3,0,2.4-1.1,2.4-2.4v-9.1c0-1.3-1.1-2.4-2.4-2.4h-11.3
-          		L133,27.1c-2.7-8.4-10.5-14-19.3-14h-9.8L96.5,0H59.3l-7.4,13.1H42c-8.8,0-16.5,5.6-19.2,13.9l-8.4,25.9h-12C1.1,52.9,0,54,0,55.3
-          		v9.1C0,65.8,1.1,66.9,2.4,66.9z M18.2,108.1V83.2c0-4.6,0.7-9.2,2.2-13.6l1-3h113.1l1,3c1.4,4.4,2.2,9,2.2,13.7v24.9
-          		c0,6-4.9,10.9-10.9,10.9H29.1C23,119,18.2,114.1,18.2,108.1z M33.1,30.3c1.3-3.9,4.8-6.5,8.9-6.5h71.7c4.1,0,7.8,2.6,9.1,6.6
-          		l8.2,25.3H24.8L33.1,30.3z"/>
-          	<circle fill="#1EBEEB" cx="31.5" cy="82.8" r="8.4"/>
-          	<circle fill="#1EBEEB" cx="124.7" cy="82.8" r="8.4"/>
-          </g>
-          </svg>
+        <div>
+          <p class="white-label">Cabs</p>
+          <div class="icon-svg">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            	 width="155px" height="136.4px" viewBox="0 0 155 136.4" enable-background="new 0 0 155 136.4" xml:space="preserve">
+            <g>
+            	<rect x="56.2" y="94.7" fill="#1EBEEB" width="43.4" height="10.8"/>
+            	<path fill="#1EBEEB" d="M2.4,66.9h7.4c-1.7,5.3-2.5,10.8-2.5,16.4v23.5l0,0v24.4c0,2.9,2.3,5.3,5.1,5.3h20.4v-6.6h89.9v6.6h20.4
+            		c2.8,0,5.1-2.4,5.1-5.3v-24.4l0,0V83.3c0-5.6-0.9-11.1-2.5-16.4h6.7c1.3,0,2.4-1.1,2.4-2.4v-9.1c0-1.3-1.1-2.4-2.4-2.4h-11.3
+            		L133,27.1c-2.7-8.4-10.5-14-19.3-14h-9.8L96.5,0H59.3l-7.4,13.1H42c-8.8,0-16.5,5.6-19.2,13.9l-8.4,25.9h-12C1.1,52.9,0,54,0,55.3
+            		v9.1C0,65.8,1.1,66.9,2.4,66.9z M18.2,108.1V83.2c0-4.6,0.7-9.2,2.2-13.6l1-3h113.1l1,3c1.4,4.4,2.2,9,2.2,13.7v24.9
+            		c0,6-4.9,10.9-10.9,10.9H29.1C23,119,18.2,114.1,18.2,108.1z M33.1,30.3c1.3-3.9,4.8-6.5,8.9-6.5h71.7c4.1,0,7.8,2.6,9.1,6.6
+            		l8.2,25.3H24.8L33.1,30.3z"/>
+            	<circle fill="#1EBEEB" cx="31.5" cy="82.8" r="8.4"/>
+            	<circle fill="#1EBEEB" cx="124.7" cy="82.8" r="8.4"/>
+            </g>
+            </svg>
+            <p>Cabs</p>
+            <hr>
+          </div>
         </div>
-        <div id="cab-body">
+        <div class="section-body">
           <p>
             New York City cabs are iconic. You often see in tv shows or movies people having a hard time catching a cab in NYC. Fortunately, it isn’t that hard in real life you just have to know what to look for.
 
@@ -129,32 +142,46 @@
       <hr>
 
       <div id="subways">
-        <div id="subway-title">
-          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-          	 width="128.7px" height="155.9px" viewBox="0 0 128.7 155.9" enable-background="new 0 0 128.7 155.9" xml:space="preserve">
-          <g>
-          	<path fill="#1EBEEB" d="M100.2,10.6H69.7V0H58.9v10.6H28.5C12.8,10.6,0,23.4,0,39.1v4.7v37.6V113c0,13.2,9,24.2,21.1,27.5L8,155.9
-          		h13.3l12.2-14.3h65.6l12.2,14.3h13.3l-14-16.4c10.5-4.2,18-14.5,18-26.5V81.4V43.8v-4.7C128.7,23.4,115.9,10.6,100.2,10.6z
-          		 M10.8,45.3h107.1V80H10.8V45.3z M28.5,21.4h71.6c8.2,0,15,5.6,17.1,13.1H11.4C13.5,27,20.4,21.4,28.5,21.4z M100.2,130.7H28.5
-          		c-9.8,0-17.7-8-17.7-17.7V90.8h107.1V113C117.9,122.8,109.9,130.7,100.2,130.7z"/>
-          	<circle fill="#1EBEEB" cx="63.9" cy="110.9" r="11.7"/>
-          </g>
-          </svg>
+        <div>
+          <p class="white-label">Subways</p>
+          <div class="icon-svg">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            	 width="128.7px" height="155.9px" viewBox="0 0 128.7 155.9" enable-background="new 0 0 128.7 155.9" xml:space="preserve">
+            <g>
+            	<path fill="#1EBEEB" d="M100.2,10.6H69.7V0H58.9v10.6H28.5C12.8,10.6,0,23.4,0,39.1v4.7v37.6V113c0,13.2,9,24.2,21.1,27.5L8,155.9
+            		h13.3l12.2-14.3h65.6l12.2,14.3h13.3l-14-16.4c10.5-4.2,18-14.5,18-26.5V81.4V43.8v-4.7C128.7,23.4,115.9,10.6,100.2,10.6z
+            		 M10.8,45.3h107.1V80H10.8V45.3z M28.5,21.4h71.6c8.2,0,15,5.6,17.1,13.1H11.4C13.5,27,20.4,21.4,28.5,21.4z M100.2,130.7H28.5
+            		c-9.8,0-17.7-8-17.7-17.7V90.8h107.1V113C117.9,122.8,109.9,130.7,100.2,130.7z"/>
+            	<circle fill="#1EBEEB" cx="63.9" cy="110.9" r="11.7"/>
+            </g>
+            </svg>
+            <p>Subways</p>
+            <hr>
+          </div>
         </div>
-        <div id="subway-body">
-          <p><img src="./images/nyc-transit-map.png" alt="Subway Map" class="body-img" />
+        <div class="section-body">
+          <p>
+            <div class="img-group">
+              <img src="./images/nyc-transit-map.png" alt="Subway Map" class="body-img" />
+              <p class="img-title">
+                <span>New York City Subway System</span>
+                <br>
+                <span class="second-line">New York City, New York</span>
+              </p>
+            </div>
+
             The Subway is the most popular mode of transportation in New York City. There are tons of access points and stops to get you around town if you’re in a hurry. Using the subway can seem stressful but it shouldn’t be intimidating. If you aren’t sure what train to take you can look at a subway map that is on the wall in every subway station.
-
+            <br><br>
             There are two types of trains, “local” which means they stop at every stop on their route and “express” which will skip stops in order to get you to a set destination faster. If you mix these up you could end up on the other side of town so be sure to check the train before getting on.
-
+            <br><br>
             Many people will refer to the trains by the color of the line, this is a bad idea. Once you travel outside of Manhattan the trains with the same color will split up and you will end up in the wrong place. When looking for a route pay attention to the number or letter.
-
+            <br><br>
             In some places on the map you will see a little black link connecting two stations, these are underground tunnels for pedestrians to make it easier to transfer trains. This makes it faster than going up the street level and walking over to the next station you need.
-
+            <br><br>
             You will see that many of the trains with have “Uptown”, “Downtown”, or the name of a borough. When you see “Uptown” it just means that it is North from where you are currently standing. “Downtown” means that is South from where you are currently standing. The name of a borough on the train just means the last stop, if that borough is North of you then you are going North and vice versa.
-
+            <br><br>
             Within the station itself, you will see signs hanging down with the number of the trains that stop at that station and the hours that it operates. To tell which train is pulling in currently look at the sign on the front and sides of the train to see what number it is and the direction it’s traveling in.
-
+            <br><br>
             ### How to Ride the Subway in New York
 
             Once you find the correct station that you need to be at you can enter the station with a MetroCard. If you don’t have a card and need one you can purchase one from the station operators booth or a MetroCard Vending Machine.

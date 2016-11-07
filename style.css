@@ -11,7 +11,7 @@ header {
   height: 750px;
 }
 
-span {
+#header-content span {
   font-family: 'Archivo Black', sans-serif;
   display: block;
   font-size: 70px;
@@ -107,9 +107,8 @@ svg {
 }
 
 .body-img {
-  float: right;
-  height: 375px;
-  width: auto;
+  max-height: 375px;
+  max-width: 375px;
 }
 
 hr {
@@ -127,18 +126,18 @@ hr {
   letter-spacing: 6px;
 }
 
-#airport-svg {
+.icon-svg {
   text-align: center;
   font-size: 42px;
   margin-top: -30%;
   margin-bottom: 80px;
 }
 
-#airport-svg p {
+.icon-svg p {
   margin-top: -1%;
 }
 
-#airport-svg hr {
+.icon-svg hr {
   display: block;
   width: 30px;
   border: 0;
@@ -146,17 +145,41 @@ hr {
   margin-top: -3%;
 }
 
-#airport-body p {
+.section-body p {
   font-size: 16px;
   line-height: 26px;
 }
 
-#airport-body p span {
+#jfk {
   color: #1CBEEC;
   font-size: 16px;
   line-height: 26px;
 }
 
-#airport-body img {
+.img-group {
   padding-left: 30px;
+  float: right;
+}
+
+.body-arrows {
+  height: 25px;
+  margin-bottom: 30%;
+  padding: 15px;
+}
+
+.img-title {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.02);
+  width: 375px;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+.section-body span {
+  font-size: 14px;
+  padding: 0px 0px 0px 15px;
+}
+
+.second-line {
+  color: rgba(74, 74, 74, 0.5);
 }
